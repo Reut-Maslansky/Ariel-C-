@@ -19,7 +19,7 @@ TEST_CASE("Good snowman")
     CHECK(snowman(11112222) == string("       \n _===_ \n\\(.,.)/\n (] [) \n (\" \") "));
     CHECK(snowman(21221243) == string("  ___  \n ..... \n (o,o)/\n<(   ) \n (___) "));
     CHECK(snowman(24232422) == string("  ___  \n ..... \n\\(o O) \n (] [) \n (\" \") "));
-    CHECK(snowman(33224442) == string("   _   \n  /_\\  \n (o_o)\n (   ) \n (\" \") "));
+    CHECK(snowman(33224442) == string("   _   \n  /_\\  \n (o_o) \n (   ) \n (\" \") "));
     CHECK(snowman(34424331) == string("   _   \n  /_\\  \n (- o) \n (> <)\\\n ( : ) "));
     CHECK(snowman(43243211) == string("  ___  \n (_*_) \n (o_-)/\n/( : ) \n ( : ) "));
 }
