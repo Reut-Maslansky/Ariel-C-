@@ -8,6 +8,6 @@ namespace ariel
 {
     string snowman(long number)
     {
-        return "   _   \n  /_\\  \n (o_o)\n (   ) \n (\" \") ";
+        return "   _   \n  /_\\  \n (- o) \n (> <)\\\n ( : ) ";
     }
 }
